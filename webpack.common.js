@@ -86,4 +86,10 @@ module.exports = {
   },
 
   plugins: plugins,
+
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'radar'),
+    },
+  },
 }
